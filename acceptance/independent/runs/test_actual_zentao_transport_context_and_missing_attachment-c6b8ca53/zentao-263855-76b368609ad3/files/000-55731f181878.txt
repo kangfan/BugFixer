@@ -1,0 +1,2 @@
+2026 ERROR synthetic exception
+second line

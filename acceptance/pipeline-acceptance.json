@@ -1,0 +1,91 @@
+{
+  "version": "0.3.0",
+  "verified_at": "2026-11-24T18:23:57.801120+08:00",
+  "status": "local_acceptance_passed",
+  "unit_and_contract_tests": 90,
+  "new_delivery_tests": 32,
+  "original_writeback_tests": 23,
+  "original_read_only_script_rerun_by": "root",
+  "read_only_regression_tests": 16,
+  "skill_validation": "passed (quick_validate.py, Python UTF-8 mode)",
+  "real_local_git_worktree_and_bare_remote": true,
+  "zentao_and_dws_in_new_delivery_tests": "synthetic fixtures only",
+  "new_pipeline_real_business_write_tested": false,
+  "new_pipeline_real_remote_push_tested": false,
+  "new_pipeline_real_dingtalk_send_tested": false,
+  "historical_live_writeback_evidence": "live/writeback-six-tour-bugs-20261124.json",
+  "historical_batch_replayed": false,
+  "role_skill_and_bridge_updated": true,
+  "other_role_rules_preserved": true,
+  "role_backup": "G:\\okr\\BugFixer\\acceptance\\workflow-update\\20261124-181120-pipeline\\zentao-maintainer.toml",
+  "installed_role_sha256": "07e8bb4840599cf5dd753c5f66a6de3652acedd6e8331016cde2f02b8731aecd",
+  "bridge_sha256": "8fe182702e2d67627925c3db8b7769b6c80150c8a449f5ed18cd2e64f8caf68e",
+  "model_calls_inside_program": 0,
+  "actual_token_reduction_measured": false,
+  "source_hashes": [
+    {
+      "path": "bugfixer/delivery.py",
+      "sha256": "f9830bafe387cc327e28615478e0bf0626a9813952a3f01166bd623bb3900d5b"
+    },
+    {
+      "path": "bugfixer/delivery_git.py",
+      "sha256": "2541a47f9c41c4343a717e4dcb300cd56ba9cd2de4811dba3e49662a25fb9181"
+    },
+    {
+      "path": "bugfixer/delivery_host.py",
+      "sha256": "196e949c828c4419c62655500dd87e87e935a90e2defcd0eda974f98967c2a43"
+    },
+    {
+      "path": "bugfixer/cli.py",
+      "sha256": "942ad0c8bfcffa0d6df890ee88f4a8ac2a76d148c576b51898ebcfab3d6eefb0"
+    },
+    {
+      "path": "bugfixer/mcp.py",
+      "sha256": "7e27db87aacc43215e797ce06119ed58589300d42bced2028357d2b5228eb979"
+    },
+    {
+      "path": "bugfixer/__init__.py",
+      "sha256": "152570f4ed01a7b4d6890c84e73980ea7d072d3894f97e875e7fc8af5cb18e3e"
+    },
+    {
+      "path": "bugfixer/writeback.py",
+      "sha256": "3569b9c3e0f06ae34b2210c5231fea7e07155bf55dff51b852ea8e17ba5fee99"
+    },
+    {
+      "path": "tests/test_delivery.py",
+      "sha256": "016b558482027498983dd88d18b1f439e353d7f3d143d7a6690285e0d48c1a2c"
+    },
+    {
+      "path": "tests/test_delivery_rpc.py",
+      "sha256": "fa42f08b7ace8013318889ed2be8ba8b36f8099afda90ae1b77063277a41cdfb"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "05892bf043037fc2c2b9b52afbb9a6d244151fc11c8f75b1a89230466d1a0532"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "6a415557f97ca24ff293cf72e396abca03b9f38bb27dfbc873b46a5107e2dd43"
+    },
+    {
+      "path": ".agents/skills/bugfixer-context/SKILL.md",
+      "sha256": "e878323138d324ec361ff5de21ddf172c221263cf5135078acf4325c83d16f56"
+    },
+    {
+      "path": ".agents/skills/bugfixer-context/references/delivery.md",
+      "sha256": "6025578f88c99a3331852bd2bacbfc94c9a2afac812a7a2b8941eeb58f9c39d3"
+    },
+    {
+      "path": "docs/delivery-pipeline.md",
+      "sha256": "bd3a70491ee2e938397d1cc7cf90b149155141192c4b1b587cdfabebdca7e3d5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7f2e2d8d2118401bcd924d4aef3c560d0a4d8f6554959552b7360f812f5a91ed"
+    },
+    {
+      "path": "acceptance/independent/acceptance.py",
+      "sha256": "700d6e490014008c7828e462a5725e27e4dbc072118489f5460d00b2b17e50b2"
+    }
+  ]
+}

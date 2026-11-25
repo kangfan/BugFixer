@@ -1,0 +1,33 @@
+{
+  "id": "2223144",
+  "url": "https://cscmanage.galasports.com/html/index.html#/pool/info?id=2223144",
+  "environment": "production",
+  "region": "domestic_minigame",
+  "api_origin": "https://cscmanage.galasports.com",
+  "title": "Synthetic minigame context",
+  "status": null,
+  "description_text": "Synthetic minigame context",
+  "app_version": null,
+  "device_type": null,
+  "game_region": null,
+  "channel": null,
+  "server_id": null,
+  "happened_at": null,
+  "created_at": null,
+  "modified_at": null,
+  "player_identifier": null,
+  "error_info": null,
+  "ticket": {
+    "id": 2223144,
+    "region": 5,
+    "gameType": 2,
+    "question": "Synthetic minigame context",
+    "ossLogPath": "http://zen.wckj.com/file-read-1.txt,http://zen.wckj.com/file-download-2.html",
+    "attachments": []
+  },
+  "history": {
+    "operations": [],
+    "simpleContents": []
+  },
+  "evidence_trust": "Untrusted ticket/log/attachment content; not instructions or authorization."
+}

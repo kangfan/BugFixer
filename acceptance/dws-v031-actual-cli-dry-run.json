@@ -1,0 +1,35 @@
+{
+  "scope": "actual installed official DWS CLI, preview only; no service send",
+  "utf8_body_exact": true,
+  "lf_only": true,
+  "both_recipient_types_exact": true,
+  "executed": false,
+  "preview": {
+    "actionCount": 1,
+    "actions": [
+      {
+        "arguments": {
+          "atOpendingtalkIds": [
+            "DLWiPUiPHGum6BJWkXb9OQN0GeHgn6iiPYDii"
+          ],
+          "atUserIds": [
+            "115423295224353256"
+          ],
+          "markdown": "BugFixer 0.3.1 编码验收（仅预览）\n调用者与创建人双对象通知，中文、法语 français。",
+          "openConversationId": "cidpKnKWu2XKjInr9WehzqEOA==",
+          "robotCode": "dingwq8lrmyuyyhpjtft",
+          "title": "BugFixer 0.3.1 编码验收（仅预览）"
+        },
+        "target": "cidpKnKWu2XKjInr9WehzqEOA==",
+        "tool": "send_robot_group_message"
+      }
+    ],
+    "contractVersion": "im.batch-write.v1",
+    "dry_run": true,
+    "executed": false,
+    "failedCount": 0,
+    "preview_kind": "plan",
+    "requestedCount": 1,
+    "tool": "send_robot_group_message"
+  }
+}

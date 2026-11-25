@@ -1,0 +1,72 @@
+{
+  "version": "0.2.0",
+  "verified_at": "2026-11-24T16:37:52.6989005+08:00",
+  "unit_and_contract_tests": 58,
+  "writeback_tests": 23,
+  "read_only_regression_tests": 16,
+  "skill_validation": "passed",
+  "deployed_forms_read_only_verification": "passed",
+  "live_fetch_263856": "ok",
+  "real_business_write_tested": true,
+  "role_skill_and_bridge_updated": true,
+  "other_authorization_rules_preserved": true,
+  "source_hashes": [
+    {
+      "path": "bugfixer/writeback.py",
+      "sha256": "3569b9c3e0f06ae34b2210c5231fea7e07155bf55dff51b852ea8e17ba5fee99"
+    },
+    {
+      "path": "bugfixer/http.py",
+      "sha256": "e69026eef16c2c68587bda0b018b0c6e4b26a4cc20caf636833e7b7ec36d0e4b"
+    },
+    {
+      "path": "bugfixer/cli.py",
+      "sha256": "0820f84a7234119655129d18f1246bad40d8cb6ba6c90b11b944b473a9b9c6f7"
+    },
+    {
+      "path": "bugfixer/mcp.py",
+      "sha256": "7777c863fa0cacc89fc1dafaf7e367e34ce976a22a1a3d2a933bcbc44d986ea3"
+    },
+    {
+      "path": "bugfixer/service.py",
+      "sha256": "304059e2637f83b4a70d820bd4934af870d02c8000b85a1dc70ba9bd5c166369"
+    },
+    {
+      "path": "bugfixer/__init__.py",
+      "sha256": "fbb2d9a0cce4a58673b5dacd5f84414ccf75a969a789808cbd5cd103ea722a4d"
+    },
+    {
+      "path": "tests/test_writeback.py",
+      "sha256": "4d01269e61454dcac99c201aecc8c8ef9a78044ebf2ae1c74a17544f8669838c"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "56d3dde40f30a86a4a861064b679bc1f90e8b1ce8a6da5fec1687769811fe409"
+    },
+    {
+      "path": ".agents/skills/bugfixer-context/SKILL.md",
+      "sha256": "57664e2b681c88f3561f586ca3b25fa52a21dfe777354c1450b80233b8573368"
+    },
+    {
+      "path": ".agents/skills/bugfixer-context/references/writeback.md",
+      "sha256": "2a862de4d0464f410ac189e9bcad68e928aa0e901fdf4e6abf858769d8268860"
+    },
+    {
+      "path": "docs/writeback-contract.md",
+      "sha256": "4c62be9d6ca216816da2872c8fbb410ad724312c9b5076f6afea8eb54c58ca42"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "57e1d58dc451f601338999486741ba55eb3d4f02890495e69b4ded577b1e2851"
+    }
+  ],
+  "real_business_write_bug_ids": [
+    "263761",
+    "263662",
+    "263660",
+    "263626",
+    "263625",
+    "263624"
+  ],
+  "real_business_write_evidence": "acceptance/live/writeback-six-tour-bugs-20261124.json"
+}

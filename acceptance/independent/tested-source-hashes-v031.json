@@ -1,0 +1,48 @@
+{
+  "capturedAt": "2026-11-25T11:41:06.548328+08:00",
+  "scope": "root rerun of original 16 synthetic retrieval regressions; new delivery acceptance separately recorded",
+  "testsRun": 16,
+  "passed": 16,
+  "files": [
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\service.py",
+      "Hash": "304059E2637F83B4A70D820BD4934AF870D02C8000B85A1DC70BA9BD5C166369"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\artifacts.py",
+      "Hash": "E4A973D128382A81B8EAA1B745CEDFB4829C7E43ADD49663A1DBE911A1B9B18D"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\http.py",
+      "Hash": "E69026EEF16C2C68587BDA0B018B0C6E4B26A4CC20CAF636833E7B7EC36D0E4B"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\common.py",
+      "Hash": "D99697F0F1BDCC9DA85CF6011F711CA0C38A7561415336BCB77F09BAD4552F0B"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\mcp.py",
+      "Hash": "7E27DB87AACC43215E797CE06119ED58589300D42BCED2028357D2B5228EB979"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\credentials.py",
+      "Hash": "65B4B8042BA28588C8920D4E47DA2578DCB9DEA3A17903B12518911162B0CAE7"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\zentao.py",
+      "Hash": "EB2A5027801B22C2B67FC3027E4A730DA31F182996CE2F283305924B21134E47"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\bugfixer\\customer_service.py",
+      "Hash": "ABEBD31781288A4E0AD60EE29960806B1F6A176CFA5450BA18B9CF6DAA63E5AE"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\.agents\\skills\\bugfixer-context\\SKILL.md",
+      "Hash": "30A976133746C0439D795600F2B7A3B578541D9B495E09C802ECB775FE7E2D55"
+    },
+    {
+      "Path": "G:\\okr\\BugFixer\\acceptance\\independent\\acceptance.py",
+      "Hash": "700D6E490014008C7828E462A5725E27E4DBC072118489F5460D00B2B17E50B2"
+    }
+  ]
+}

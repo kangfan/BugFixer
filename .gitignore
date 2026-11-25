@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.credentials/
+data/
+artifacts/
+acceptance/discovery/
+acceptance/live/
+acceptance/validation-deps/
+acceptance/pipeline-tests/
+*.egg-info/

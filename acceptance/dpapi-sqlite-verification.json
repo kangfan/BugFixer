@@ -1,0 +1,7 @@
+{
+  "synthetic_only": true,
+  "actual_windows_dpapi_sqlite_roundtrip": true,
+  "database_has_no_plaintext_secret": true,
+  "credential_repr_has_no_secret": true,
+  "real_credentials_used": false
+}

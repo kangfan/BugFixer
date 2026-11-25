@@ -1,0 +1,21 @@
+test_actual_csc_transport_logs_partial_preserves_context (__main__.Acceptance.test_actual_csc_transport_logs_partial_preserves_context) ... ok
+test_actual_zentao_transport_context_and_missing_attachment (__main__.Acceptance.test_actual_zentao_transport_context_and_missing_attachment) ... ok
+test_chunked_truncation_preserves_context (__main__.Acceptance.test_chunked_truncation_preserves_context) ... ok
+test_cli_2223144_domestic_minigame_missing_credentials (__main__.Acceptance.test_cli_2223144_domestic_minigame_missing_credentials) ... ok
+test_cli_malformed_nested_request (__main__.Acceptance.test_cli_malformed_nested_request) ... ok
+test_cli_missing_named_credentials_263855 (__main__.Acceptance.test_cli_missing_named_credentials_263855) ... ok
+test_cli_zentao_invalid_region_is_rejected_not_traceback (__main__.Acceptance.test_cli_zentao_invalid_region_is_rejected_not_traceback) ... ok
+test_cross_source_reference_rejected_before_decrypt_or_http (__main__.Acceptance.test_cross_source_reference_rejected_before_decrypt_or_http) ... ok
+test_http304_hash_verified_and_corrupt_cache_refetched (__main__.Acceptance.test_http304_hash_verified_and_corrupt_cache_refetched) ... ok
+test_invalid_source_region_url_no_http (__main__.Acceptance.test_invalid_source_region_url_no_http) ... ok
+test_mcp_actual_stdio (__main__.Acceptance.test_mcp_actual_stdio) ... ok
+test_missing_credentials_from_auth_challenge_blocked (__main__.Acceptance.test_missing_credentials_from_auth_challenge_blocked) ... ok
+test_rejected_attachment_userinfo_not_exposed_in_manifest (__main__.Acceptance.test_rejected_attachment_userinfo_not_exposed_in_manifest) ... ok
+test_truncated_http_is_partial_not_complete (__main__.Acceptance.test_truncated_http_is_partial_not_complete) ... ok
+test_url_allowlist_and_userinfo (__main__.Acceptance.test_url_allowlist_and_userinfo) ... ok
+test_zip_rejected_before_extracting_first_member (__main__.Acceptance.test_zip_rejected_before_extracting_first_member) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.042s
+
+OK

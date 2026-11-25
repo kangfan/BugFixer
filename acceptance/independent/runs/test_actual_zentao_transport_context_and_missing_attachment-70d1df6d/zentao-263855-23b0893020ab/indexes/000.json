@@ -1,0 +1,12 @@
+{
+  "line_count": 2,
+  "matches_limit": 100,
+  "matches": [
+    {
+      "line": 1,
+      "text": "2026 ERROR synthetic exception"
+    }
+  ],
+  "truncated": false,
+  "interpretation": "Index entries are evidence candidates, not proven root causes."
+}

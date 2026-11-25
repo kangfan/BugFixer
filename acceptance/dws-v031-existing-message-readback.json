@@ -1,0 +1,8 @@
+{
+  "scope": "read-only verification of previously sent 263856 message; no new send",
+  "result": {
+    "full_body_verified": true,
+    "message_id": "msgSpLAHqrcIgIwSZzUmDmH+g==",
+    "conversation_id": "cidpKnKWu2XKjInr9WehzqEOA=="
+  }
+}

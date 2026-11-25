@@ -1,0 +1,77 @@
+{
+  "complete": true,
+  "contractVersion": "im.message-list.v1",
+  "count": 5,
+  "decryptAllowedCount": 0,
+  "decryptCandidateCount": 0,
+  "decryptFailedCount": 0,
+  "decryptedCount": 0,
+  "enrichedCount": 0,
+  "failedCount": 0,
+  "failures": [],
+  "hasMore": false,
+  "identityResult": {
+    "hint": "若原始任务包含自然人发送者条件，请先将目标人解析为唯一 userId/openDingTalkId，再与 messages[].senderId 比较；禁止直接比较 messages[].sender 展示名。",
+    "negativeConclusionAllowed": false,
+    "status": "requires_query_check"
+  },
+  "messages": [
+    {
+      "conversationId": "cidpKnKWu2XKjInr9WehzqEOA==",
+      "createTime": "2026-11-25 11:30:31",
+      "messageId": "msg/t1niaH79GJ3tRor7cuekA==",
+      "sender": "禅道bug维修员",
+      "senderId": "DLWiPUiPHGum6CbwdjDLtNglbw92J93dGl7",
+      "text": "小哥哥，收到啦，正在安排处理这条消息ing，请稍等哈～"
+    },
+    {
+      "conversationId": "cidpKnKWu2XKjInr9WehzqEOA==",
+      "createTime": "2026-11-25 11:30:30",
+      "messageId": "msgutVKWBlcyjCDkFZEuR/ImQ==",
+      "sender": "康自军",
+      "senderId": "DLWiPUiPHGum6CmkoeWRmGJiiStCRPiizsjxX",
+      "text": "@禅道bug维修员 修复bug:263664"
+    },
+    {
+      "conversationId": "cidpKnKWu2XKjInr9WehzqEOA==",
+      "createTime": "2026-11-25 11:26:40",
+      "messageId": "msgdHFIG7k3JOjWNT08D1F9UA==",
+      "sender": "无痕剑客",
+      "senderId": "DLWiPUiPHGum6BxZYkcXSREA0VZ4Xt4Denp",
+      "text": "古龙少侠，工单 #2224735「在球探中无法点击分享」已补查。工单记录的发生时间是 11 月 25 日 08:07，已取得「最佳11人 · 国内 - 小游戏」的客户端日志。 \n 核对本机 H5 工程后，修正上一轮的判断。微信小游戏在抽卡动画结束、卡片展示时显示独立的截图分享按钮。点击后直接调用截图分享，当前这条 H5 代码路径未走上一轮提到的 S+ 判定。 \n 附件里可核对的绝对时间戳最晚是 11 月 24 日 22:38，未找到本次发生时刻或 H5 分享按钮点击记录。现有证据还不能判断是按钮没显示、点按没触发，还是微信分享没拉起。若能复现，请保留从抽卡结果露出到点击分享的录屏，并补传当次日志，方便对照点击和微信回调。 \n 工单 #2224735"
+    },
+    {
+      "conversationId": "cidpKnKWu2XKjInr9WehzqEOA==",
+      "createTime": "2026-11-25 11:23:56",
+      "messageId": "msgSpLAHqrcIgIwSZzUmDmH+g==",
+      "sender": "禅道bug维修员",
+      "senderId": "DLWiPUiPHGum6CbwdjDLtNglbw92J93dGl7",
+      "text": "263856 已修复推送，禅道已解决转陈静验收。 原因：法语球探提示的文字区与红底边界不一致。 修改：红底宽180、文字安全宽160，锁定背景宽度并保留完整法语。 验收：已核对布局字段、远端提交和工单保存；请复验法语提示及相邻入口间距。 提交：2e04a0512f2 http://zen.wckj.com/bug-view-263856.html"
+    },
+    {
+      "conversationId": "cidpKnKWu2XKjInr9WehzqEOA==",
+      "createTime": "2026-11-25 11:20:50",
+      "messageId": "msg0/RzY6PB/4hNqSvT460/Aw==",
+      "sender": "禅道bug维修员",
+      "senderId": "DLWiPUiPHGum6CbwdjDLtNglbw92J93dGl7",
+      "text": "263856 进展 原因：法语球探提示框边界不足，已完成定位。 修改：单Prefab布局已修复并推送，提交 2e04a0512f2。 验收：禅道解决转测试待康自军明确验收人，当前工单仍指派康自军。 http://zen.wckj.com/bug-view-263856.html"
+    }
+  ],
+  "nextActions": [],
+  "pagesFetched": 1,
+  "paginationKnown": true,
+  "partial": false,
+  "queryRange": {
+    "endTime": "2026-11-25T11:38:38.5771545+08:00",
+    "order": "desc",
+    "semantics": "[start,end)",
+    "startTime": "2026-11-25T03:20:00Z"
+  },
+  "senderFilter": {
+    "applied": false,
+    "requested": false,
+    "status": "not_requested"
+  },
+  "stopReason": "range_start",
+  "truncated": false
+}

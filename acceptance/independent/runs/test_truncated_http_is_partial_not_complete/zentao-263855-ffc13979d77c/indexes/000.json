@@ -1,0 +1,12 @@
+{
+  "line_count": 1,
+  "matches_limit": 100,
+  "matches": [
+    {
+      "line": 1,
+      "text": "error short"
+    }
+  ],
+  "truncated": false,
+  "interpretation": "Index entries are evidence candidates, not proven root causes."
+}

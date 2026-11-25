@@ -1,0 +1,7 @@
+{
+  "running_old_mcp_version_marker": "not_reported; old process confirmed via read-only status",
+  "cli_version": "0.3.1",
+  "cli_immediately_available": true,
+  "existing_job_not_run_or_replayed": true,
+  "workflow": "use current CLI automatically until MCP reconnects"
+}

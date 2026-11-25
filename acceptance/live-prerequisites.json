@@ -1,0 +1,52 @@
+[
+  {
+    "request": {
+      "source": "zentao",
+      "id": "263855",
+      "credential_ref": "zentao"
+    },
+    "exit_code": 0,
+    "result": {
+      "schema_version": 1,
+      "status": "blocked",
+      "read_only": true,
+      "error": {
+        "code": "credentials_required",
+        "message": "The named local credential has not been recorded.",
+        "retryable": false
+      },
+      "evidence_directory": null,
+      "handoff": {
+        "caller": "zentao_maintainer",
+        "action": "Resolve only the stated missing information or supported login step; do not report retrieval complete."
+      }
+    },
+    "stderr_empty": true
+  },
+  {
+    "request": {
+      "source": "customer_service",
+      "id": "2223144",
+      "environment": "production",
+      "region": "domestic_minigame",
+      "credential_ref": "customer_service"
+    },
+    "exit_code": 0,
+    "result": {
+      "schema_version": 1,
+      "status": "blocked",
+      "read_only": true,
+      "error": {
+        "code": "credentials_required",
+        "message": "The named local credential has not been recorded.",
+        "retryable": false
+      },
+      "evidence_directory": null,
+      "handoff": {
+        "caller": "zentao_maintainer",
+        "action": "Resolve only the stated missing information or supported login step; do not report retrieval complete."
+      }
+    },
+    "stderr_empty": true
+  }
+]
